@@ -23,6 +23,8 @@ SEED = 10
 torch.manual_seed(SEED)
 torch.cuda.manual_seed(SEED)
 torch.cuda.manual_seed_all(SEED)
+
+pass
 # cudnn.benchmark = True  ###自动寻找最优算法
 cudnn.deterministic = True
 
